@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <div class="nav__logo">
+                <img src="https://static.cdnlogo.com/logos/n/2/nissan.svg" alt="" class="rasm2">
+            </div>
+            <div class="nav_collection">
+                <div style="font-weight: 700; color: rgb(43, 42, 42);" class="nav_item" onclick="vehicle.classList.add('show')">Vehicles<i class="fa-solid fa-angle-down"></i></div>
+                <div style="font-weight: 700; color: rgb(43, 42, 42);" class="nav_item">Shop At Home<i class="fa-solid fa-angle-down"></i></div>
+                <div style="font-weight: 700; color: rgb(43, 42, 42);" class="nav_item">Discover Nissan<i class="fa-solid fa-angle-down"></i></div>
+                <div class="nav_item">Owners<i class="fa-solid fa-angle-down"></i></div>
+                <div class="nav_item">Locate Dealer<i class="fa-solid fa-angle-down"></i></div>
+                <div class="nav_item"><button class="btn1">Build $ Price<i class="fa-solid fa-angle-right"></i></button></div>
+                <div class="nav_item"><i class="fa-regular fa-comment"></i></div>
+                <div class="til">EN<i class="fa-solid fa-angle-right"></i></div>
+                <div class="nav_item"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+        </div>
+        <div class="fortext">
+            <h3 style="font-size: 13px; margin-bottom: 50px; font-weight: 900;">A TOTALLY NEW WAY TO SEE ELECTRIC DRIVING</h3>
+            <h1 style="margin: 20px 0 20px 0; font-weight: 400;font-size: 40px;">THE ALL NEW 2023 NISSAN ARIA</h1>
+            <h3 style="font-size: 15px; margin-bottom: 20px;font-weight: 100">Fierce, yet refined. Elegant, yet exhilarating. In the ARIYA, there's always more to the story than meets the eye.</h3>
+            <button class="btn2">Unleash ARIYA<i style="margin-left: 100px;" class="fa-solid fa-angle-right"></i></button>
+        </div>
+        
+        <!-- <div class="vehicles" name="vehicle">
+            
+                        <div class="forcars">
+                    <div class="for4cars">
+                        <div class="car1"><img src="./car1.webp" alt="">
+                        <h3>Rogue Sport</h3>
+                        <h5>Staring MSRP</h5>
+                        <h5>$24,960</h5>
+                    </div>
+                        <i class="fa-solid fa-xmark" onclick="vehicle.classList.remove('show')"></i>
+            
+                    </div> -->
+        </div>
+    
+        
+        <!-- <h2 class="vehicles"></h2> -->
+
+        <div class="search">
+            <input class="inp" type="text" name="" id="" placeholder="Search Nissan USA">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-xmark close"></i>
+        </div>
+
+        <div id="demo">
+            <h1>Choose your language</h1>
+            <button class="btnLan">English</button>
+            <button class="btnLan">Russian</button>
+            <button class="btnLan">Uzbek</button>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        
+        
+        <div class="vehicles">
+           <div class="vx"> <h1>Choose your Favourite car</h1>
+            <i class="fa-solid fa-xmark take"></i></div>
+            <div class="forcars">
+        <div class="for4cars">
+            <div class="car1"><img src="./car1.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+        </div>
+            <div class="car1"><img src="./car2.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car1"><img src="./car2.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car1"><img src="./car3.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car1"><img src="./car4.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+        </div>
+        <div class="for3cars">
+            <div class="car2"><img src="./car5.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car2"><img src="./car6.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car2"><img src="./car6.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car2"><img src="./car7.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5> 
+            </div>
+            <div class="car2"><img src="./car7.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5> 
+            </div>
+            
+        </div>
+    </div>
+        </div>
+
+        <!-- <div class="cars">
+            <div class="navbar-car">
+                <h1>Vehicles</h1>
+    
+                <ul class="collection-car">
+                    <li class="item-car">Business&Fleet <i class="fa-solid fa-angle-right"></i></li>
+                    <li class="item-car">See all vehicles  <i class="fa-solid fa-angle-right"></i></li>
+                    <li class="item-car">
+                        <button class="btn-car">
+                            Certified Pre-Owned
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                        
+                    </li>
+                </ul>
+                <i class="fa-solid fa-xmark"></i>
+            </div> -->
+    
+
+</div>
+
+<div class="blue">
+<h2 style="color: rgb(36, 35, 35); font-weight: 100; margin-left: 50px; margin-bottom: 50px;padding-top: 50px;">Explore our vehicles</h2>
+    <div class="forbtn">
+    <button class="button1">Crossovers & SUVs</button>
+    <button class="button2">Cars</button>
+    <button class="button2">Electric</button>
+    <button class="button2">Sport Cars</button>
+    <button class="button2">Trucks</button>
+    </div>
+    <div class="forcars">
+        <div class="for4cars">
+            <div class="car1"><img src="./car1.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+        </div>
+            <div class="car1"><img src="./car2.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car1"><img src="./car3.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car1"><img src="./car4.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+        </div>
+        <div class="for3cars">
+            <div class="car2"><img src="./car5.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car2"><img src="./car6.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5>
+            </div>
+            <div class="car2"><img src="./car7.webp" alt="">
+            <h3>Rogue Sport</h3>
+            <h5>Staring MSRP</h5>
+            <h5>$24,960</h5> 
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <div class="foricons">
+        <div class="icon1"><i class="fa-solid fa-gear"></i><h3 class="t1">Build Your Nissan</h3></div>
+        <div class="icon1"><i class="fa-solid fa-newspaper"></i><h3 class="t1">View a Brochure</h3></div>
+        <div class="icon1"><i class="fa-solid fa-car"></i><h3 class="t1">Search Inventory</h3></div>
+        <div class="icon1"><i class="fa-solid fa-gas-pump"></i><h3 class="t1">View Offers</h3></div>
+    </div>
+    <div class="fon2">
+        
+        <div class="tepaga">
+        <h1 class="ev1">EVs that electrify</h1>
+        <h3 class="ev3">EVs dont just drive, they electrify</h3>
+        <button class="btn3">Explore electrification<i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+    <div class="rul">
+        <div class="rul1">
+        <h1>NISSAN CERTIFIED</h1>
+        </div>
+       <div class="rul2">
+        <h1>NISSAN ARMADA</h1>
+        </div>
+        <div class="rul3">
+        <h1>THE Thrill of the Drive Sales Event</h1>
+        </div>
+    </div>
+    <div class="shop">
+    <div class="shoptext">
+        <h1>NISSAN@HOME</h1>
+        <h1>SHOP, DRIVE, and BUY a new or Certified Pre-owned Nissan online.    </h1>
+        <button class="btn4">Get Started<i style="margin-left: 170px;" class="fa-solid fa-angle-right"></i></button>
+    </div>
+    <div class="shop1">
+
+    </div>
+    </div>
+    <div class="shop2and3">
+        <div class="shop2">
+            <h3>NISSAN AND NCAA®
+            Official partner of March Madness®</h6>
+            <button class="btn5">Join the fun<i class="fa-solid fa-angle-right"></i></button>
+        </div>
+
+        <div class="shop3">
+            <h3>NISSAN AND NCAA®
+            Official partner of March Madness®</h6>
+            <button class="btn5">Explore<i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+
+    <h1 class="discover">Discover Nissan</h1>
+    <div class="sustain">
+        <div class="archa1">
+            <h3>NISSAN AND NCAA®
+            Official partner of March Madness®</h6>
+            <button class="btn5">Explore<i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="archa2">
+            <h3>NISSAN AND NCAA®
+            Official partner of March Madness®</h6>
+            <button class="btn5">Explore<i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="archa3">
+            <h3>NISSAN AND NCAA®
+            Official partner of March Madness®</h6>
+            <button class="btn5">Explore<i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+    <div class="find">
+    <h1>Find Nissan Safety Recall & Service Campaign Information here:</h1>
+    <button class="btn6">Explore<i class="fa-solid fa-angle-right"></i></button>
+    </div>
+    <div class="footer">
+        <div class="f1">
+            <h4>NISSAN AT HOME</h4>
+            <h6>Get Started</h6>
+            <h6>All Vehicles</h6>
+            <h6>Build Your Nissan</h6>
+            <h6>Search Inventory</h6>
+            <h6>Locate a Dealer</h6>
+            <h6>View a Brochure</h6>
+            <h6>Estimate Payments</h6>
+            <h6>Compare Competitors</h6>
+            <h6>Get Internet Quote</h6>
+            <h6>Get Trade-in Value</h6>
+        </div>
+        <div class="f1">
+            <h4>NISSAN AT HOME</h4>
+            <h6>Get Started</h6>
+            <h6>All Vehicles</h6>
+            <h6>Build Your Nissan</h6>
+            <h6>Search Inventory</h6>
+            <h6>Locate a Dealer</h6>
+            <h6>View a Brochure</h6>
+            <h6>Estimate Payments</h6>
+            <h6>Compare Competitors</h6>
+            <h6>Get Internet Quote</h6>
+            <h6>Get Trade-in Value</h6>
+        </div>
+        <div class="f1">
+            <h4>NISSAN AT HOME</h4>
+            <h6>Get Started</h6>
+            <h6>All Vehicles</h6>
+            <h6>Build Your Nissan</h6>
+            <h6>Search Inventory</h6>
+            <h6>Locate a Dealer</h6>
+            <h6>View a Brochure</h6>
+            <h6>Estimate Payments</h6>
+            <h6>Compare Competitors</h6>
+            <h6>Get Internet Quote</h6>
+            <h6>Get Trade-in Value</h6>
+        </div>
+        <div class="f1">
+            <h4>NISSAN AT HOME</h4>
+            <h6>Get Started</h6>
+            <h6>All Vehicles</h6>
+            <h6>Build Your Nissan</h6>
+            <h6>Search Inventory</h6>
+            <h6>Locate a Dealer</h6>
+            <h6>View a Brochure</h6>
+            <h6>Estimate Payments</h6>
+            <h6>Compare Competitors</h6>
+            <h6>Get Internet Quote</h6>
+            <h6>Get Trade-in Value</h6>
+        </div>
+    </div>
+        <div class="footertagi">
+            <div class="iconka">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+            </div>
+            <div class="contact">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
